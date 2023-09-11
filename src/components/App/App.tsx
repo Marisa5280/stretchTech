@@ -131,7 +131,7 @@ function App() {
       ) : (
         <>
           <ParksWrapper parks={parks} />
-          <ParkDetails park={individualPark} />
+          {/* <ParkDetails park={individualPark} /> */}
         </>
       )}
     </div>

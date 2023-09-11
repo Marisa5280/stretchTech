@@ -48,15 +48,16 @@ interface ParkProps {
   images: Array<{ url: string; altText: string }>;
 }
 function ParkCards(props: ParkProps) {
+  console.log('parkprops:', props)
   return (
     <div className="park-card">
       <img
         className="park-img"
-        src={images[0].url}
-        alt={images[0].altText}
-        id={id}
+        src={props.parks.images[0].url}
+        alt={props.images[0].altText}
+        id={props.id}
       ></img>
-      <h3 className="park-title">{fullName}</h3>
+      <h3 className="park-title">{props.fullName}</h3>
     </div>
   );
 }
