@@ -35,9 +35,9 @@
 
 // export default ParkCard;
 
-import React from 'react';
-import './ParkCards.css';
-// import errorImage from '../images/logo.svg'; 
+import React from "react";
+import "./ParkCards.css";
+import errorImage from "../images/logo.svg";
 
 interface ParkProps {
   id: string;
@@ -47,41 +47,25 @@ interface ParkProps {
   activities: Array<{ id: string; name: string }>;
   images: Array<{ url: string; altText: string }>;
 }
-
-function ParkCards({ park }: { park: ParkProps }) {
-  if (!park || !park.activities || !park.images) {
-    return <div>Error: Park information is not available.</div>;
-  }
-
+function ParkCards(props: ParkProps) {
   return (
-    <div className='park-card'>
-      <h3>{park.fullName}</h3>
-      <p>{park.description}</p>
-      <a href={park.url} target="_blank" rel="noopener noreferrer">Learn More</a>
-      <h4>Activities</h4>
-      <ul>
-        {park.activities.map(activity => (
-          <li key={activity.id}>{activity.name}</li>
-        ))}
-      </ul>
-      <div className="image-gallery">
-        {park.images.map((image, index) => (
-          <div key={index}>
-            <img
-              src={image.url}
-              alt={image.altText}
-              onError={(e) => {
-                e.currentTarget.onerror = null;
-                // e.currentTarget.src = errorImage;
-                e.currentTarget.src = "/logo.svg"; 
-              }}
-            />
-          </div>
-        ))}
-      </div>
+    <div className="park-card">
+      <img
+        className="park-img"
+        src={images[0].url}
+        alt={images[0].altText}
+        id={id}
+      ></img>
+      <h3 className="park-title">{fullName}</h3>
     </div>
   );
 }
+// function ParkCards({ park }: { park: ParkProps }) {
+//   // if (!park || !park.activities || !park.images) {
+//   //   return <div>Error: Park information is not available.</div>;
+//   // }
+
+// }
 
 export { ParkCards };
 export type { ParkProps };

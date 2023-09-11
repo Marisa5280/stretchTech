@@ -1,4 +1,4 @@
-.park-details {
+/* .park-details {
     border: 1px solid #ccc;
     padding: 16px;
     margin: 16px;
@@ -47,6 +47,87 @@
     .image-gallery div {
       max-width: calc(50% - 16px);
     }
+  } */
+  
+  .park-details {
+    border: 2px solid #4e8248; 
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    background-color: #f5f9f4; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
   
+  .park-details h3 {
+    color: #2c5d36; 
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  
+  .park-details p {
+    color: #4a4a4a;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .park-details a {
+    display: inline-block;
+    background-color: #4e8248;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    text-decoration: none;
+  }
+  
+  .park-details h4 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #2c5d36;
+  }
+  
+  .park-details ul {
+    list-style: disc inside;
+    color: #4a4a4a;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .image-gallery div {
+    flex: 1;
+  }
+  
+  .image-gallery img {
+    max-width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .park-details {
+      font-size: 14px;
+      padding: 12px;
+      margin: 12px;
+    }
+  
+    .park-details h3 {
+      font-size: 20px;
+    }
+  
+    .park-details p {
+      font-size: 14px;
+    }
+    
+    .park-details h4 {
+      font-size: 18px;
+    }
+  
+    .park-details a {
+      padding: 6px 12px;
+    }
+  }
   

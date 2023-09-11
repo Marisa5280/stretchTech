@@ -14,7 +14,7 @@ function ParksWrapper({ parks }: { parks: ParkProps[] }) {
 
   return (
     <div className='parks-container'>
-      {parkCards}
+      {/* {parkCards} */}
     </div>
   );
 }

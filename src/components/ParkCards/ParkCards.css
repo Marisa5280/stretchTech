@@ -1,82 +1,10 @@
+
 .park-card {
-    border: 2px solid #4e8248; 
-    border-radius: 8px;
-    padding: 16px;
-    margin: 16px;
-    background-color: #f5f9f4; 
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  
-  .park-card h3 {
-    color: #2c5d36; 
-    font-size: 24px;
-    margin-bottom: 12px;
-  }
-  
-  .park-card p {
-    color: #4a4a4a;
-    font-size: 16px;
-    margin-bottom: 16px;
-  }
-  
-  .park-card a {
-    display: inline-block;
-    background-color: #4e8248;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    text-decoration: none;
-  }
-  
-  .park-card h4 {
-    font-size: 20px;
-    margin-bottom: 12px;
-    color: #2c5d36;
-  }
-  
-  .park-card ul {
-    list-style: disc inside;
-    color: #4a4a4a;
-  }
-  
-  .image-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-  }
-  
-  .image-gallery div {
-    flex: 1;
-  }
-  
-  .image-gallery img {
-    max-width: 100%;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  
-  @media (max-width: 768px) {
-    .park-card {
-      font-size: 14px;
-      padding: 12px;
-      margin: 12px;
-    }
-  
-    .park-card h3 {
-      font-size: 20px;
-    }
-  
-    .park-card p {
-      font-size: 14px;
-    }
-    
-    .park-card h4 {
-      font-size: 18px;
-    }
-  
-    .park-card a {
-      padding: 6px 12px;
-    }
-  }
-  
+  box-sizing: border-box;
+  border: 3px solid black;
+  padding: 0px;
+  height: auto;
+  width: 10vw;
+  cursor: pointer;
+  /* transition: filter 0.2s ease; */
+}

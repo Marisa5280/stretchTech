@@ -1,36 +1,18 @@
-/* .parks-wrapper {
-  border: 1px solid #ccc;
-  padding: 16px;
-  margin: 16px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
 
-.parks-wrapper h1 {
-  font-size: 24px;
-  margin-bottom: 8px;
-}
-
-.parks-wrapper p {
-  font-size: 16px;
-  margin-bottom: 16px;
-}
-
-.parks-wrapper h2 {
-  font-size: 20px;
-  margin-bottom: 8px;
-}
-
-.parks-wrapper ul {
-  list-style: disc inside;
-} */
 
 
 .parks-container {
   background-color: #F4F1DE;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 5px;
+  overflow-x: none;
+  padding-left: 16vw;
+  padding-right: 20vw;
 }
 
-.parks-wrapper {
+/* .parks-wrapper {
   border: 1px solid #3D405B;
   padding: 16px;
   margin: 16px;
@@ -73,4 +55,4 @@
     flex-direction: column;
     align-items: center;
   }
-}
+} */
