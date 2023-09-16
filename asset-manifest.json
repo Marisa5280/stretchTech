@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/stretchTech/static/css/main.4bb56f7e.css",
+    "main.js": "/stretchTech/static/js/main.491ed7a5.js",
+    "static/js/787.bba95901.chunk.js": "/stretchTech/static/js/787.bba95901.chunk.js",
+    "static/media/ErrorBear.png": "/stretchTech/static/media/ErrorBear.24693a3520dc68ec9bd6.png",
+    "static/media/groundhog.png": "/stretchTech/static/media/groundhog.25f278cb9db0484790c9.png",
+    "static/media/pine.png": "/stretchTech/static/media/pine.50d5eb3c90327b52b6ab.png",
+    "static/media/yosemite-hero-cropped.jpeg": "/stretchTech/static/media/yosemite-hero-cropped.d4b06da63af010b13889.jpeg",
+    "static/media/error.png": "/stretchTech/static/media/error.52caf87226489634f396.png",
+    "static/media/parkbutton.png": "/stretchTech/static/media/parkbutton.18632fda690360da3513.png",
+    "index.html": "/stretchTech/index.html",
+    "main.4bb56f7e.css.map": "/stretchTech/static/css/main.4bb56f7e.css.map",
+    "main.491ed7a5.js.map": "/stretchTech/static/js/main.491ed7a5.js.map",
+    "787.bba95901.chunk.js.map": "/stretchTech/static/js/787.bba95901.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bb56f7e.css",
+    "static/js/main.491ed7a5.js"
+  ]
+}
