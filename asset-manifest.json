@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/stretchTech/static/css/main.4bb56f7e.css",
-    "main.js": "/stretchTech/static/js/main.491ed7a5.js",
+    "main.js": "/stretchTech/static/js/main.e9563777.js",
     "static/js/787.bba95901.chunk.js": "/stretchTech/static/js/787.bba95901.chunk.js",
     "static/media/ErrorBear.png": "/stretchTech/static/media/ErrorBear.24693a3520dc68ec9bd6.png",
     "static/media/groundhog.png": "/stretchTech/static/media/groundhog.25f278cb9db0484790c9.png",
@@ -11,11 +11,11 @@
     "static/media/parkbutton.png": "/stretchTech/static/media/parkbutton.18632fda690360da3513.png",
     "index.html": "/stretchTech/index.html",
     "main.4bb56f7e.css.map": "/stretchTech/static/css/main.4bb56f7e.css.map",
-    "main.491ed7a5.js.map": "/stretchTech/static/js/main.491ed7a5.js.map",
+    "main.e9563777.js.map": "/stretchTech/static/js/main.e9563777.js.map",
     "787.bba95901.chunk.js.map": "/stretchTech/static/js/787.bba95901.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4bb56f7e.css",
-    "static/js/main.491ed7a5.js"
+    "static/js/main.e9563777.js"
   ]
 }
