@@ -80,21 +80,21 @@ function App() {
             }
           />
           <Route
-            path="/stretchTech/park/:parkCode"
+            path="/park/:parkCode"
             element={<ParkDetails setIsLoading={setIsLoading} />}
           />
           <Route
-            path="/stretchTech/favorites"
+            path="/favorites"
             element={
               <Favorites favorites={favorites} setFavorites={setFavorites} />
             }
           />
-          <Route path="/stretchTech/*" element={<Navigate to="/404" />} />
-          <Route path="/stretchTech/404" element={<Error404 />} />
-          <Route path="/stretchTech/500" element={<Error500 />} />
-          <Route path="/stretchTech/test-500" element={<Error500 />} />
+          <Route path="/*" element={<Navigate to="/404" />} />
+          <Route path="/404" element={<Error404 />} />
+          <Route path="/500" element={<Error500 />} />
+          <Route path="/test-500" element={<Error500 />} />
           <Route
-            path="/stretchTech/error"
+            path="/error"
             element={<ErrorComponent error={{ message: newError }} />}
           />
         </Routes>
