@@ -34,7 +34,7 @@ Park Details Page
 - [Parvin A. Sattorova](https://github.com/Sulton88Mehron90)
 
 ### **LIVE SITE**
-[Parks Passport Site](https://marisa5280.github.io/stretchTech/)
+[Parks Passport Site](https://parks-passport-iota.vercel.app/)
 
 ### **INSTALLATION INSTRUCTIONS**
 
